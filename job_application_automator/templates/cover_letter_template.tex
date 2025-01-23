@@ -1,0 +1,97 @@
+\documentclass[a4paper,11pt]{article}
+
+% Package imports
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome5}
+
+% Color definitions
+\definecolor{darkblue}{RGB}{0,0,139}
+
+% Page layout
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\setlength{\footskip}{5pt}
+
+% Hyperlink setup
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
+
+% Text alignment
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Commands for icon sizing and positioning
+\newcommand{\socialicon}[1]{\raisebox{-0.05em}{\resizebox{!}{1em}{#1}}}
+
+% Font options
+\newcommand{\headerfonti}{\fontfamily{phv}\selectfont}
+\newcommand{\headerfontii}{\fontfamily{ptm}\selectfont}
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont}
+\newcommand{\headerfontiv}{\fontfamily{pbk}\selectfont}
+\newcommand{\headerfontv}{\fontfamily{pag}\selectfont}
+\newcommand{\headerfontvi}{\fontfamily{cmss}\selectfont}
+\newcommand{\headerfontvii}{\fontfamily{qhv}\selectfont}
+\newcommand{\headerfontviii}{\fontfamily{qpl}\selectfont}
+\newcommand{\headerfontix}{\fontfamily{qtm}\selectfont}
+\newcommand{\headerfontx}{\fontfamily{bch}\selectfont}
+
+\begin{document}
+
+\headerfontiii  % Using the same Palatino font as CV
+
+% Sender's Information
+\begin{center}
+    {\Huge\textbf{$CANDIDATE_NAME}}
+\end{center}
+\vspace{-6mm}
+
+\begin{center}
+    \small{$CANDIDATE_INFO}
+\end{center}
+
+\vspace{4mm}
+
+% Date
+\today
+
+\vspace{4mm}
+
+% Recipient's Information
+$RECIPIENT_INFO
+
+\vspace{4mm}
+
+$LETTER_CONTENT
+
+\vspace{4mm}
+
+Sincerely,\\
+$CANDIDATE_NAME
+
+\end{document}

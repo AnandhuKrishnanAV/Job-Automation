@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  job-automator:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env
+    environment:
+      - TZ=UTC
+    restart: unless-stopped

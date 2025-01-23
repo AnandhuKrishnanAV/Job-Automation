@@ -1,0 +1,40 @@
+Senior Software Engineer - AI/ML
+Company: TechCorp AI
+Location: San Francisco, CA (Hybrid)
+
+About Us:
+TechCorp AI is a leading artificial intelligence company focused on developing cutting-edge ML solutions for enterprise clients. We're revolutionizing how businesses leverage AI for automation and decision-making.
+
+Job Description:
+We're seeking a Senior Software Engineer with strong expertise in AI/ML to join our growing team. The ideal candidate will help design and implement scalable machine learning systems and contribute to our core AI platform.
+
+Required Skills:
+- 5+ years of experience in software development
+- Strong proficiency in Python and modern ML frameworks (PyTorch, TensorFlow)
+- Experience with large-scale distributed systems
+- Expertise in designing and implementing RESTful APIs
+- Strong background in data structures and algorithms
+- Experience with cloud platforms (AWS/GCP)
+
+Preferred Qualifications:
+- Master's degree in Computer Science or related field
+- Experience with MLOps and CI/CD pipelines
+- Familiarity with containerization (Docker, Kubernetes)
+- Background in NLP or computer vision
+- Contributions to open-source projects
+
+Responsibilities:
+- Design and implement scalable ML systems
+- Optimize model performance and deployment pipelines
+- Collaborate with data scientists to productionize ML models
+- Mentor junior engineers and contribute to technical decisions
+- Write clean, maintainable, and well-tested code
+- Participate in code reviews and technical discussions
+
+Benefits:
+- Competitive salary and equity
+- Health, dental, and vision insurance
+- Flexible work arrangements
+- Professional development budget
+- 401(k) matching
+- Generous PTO policy

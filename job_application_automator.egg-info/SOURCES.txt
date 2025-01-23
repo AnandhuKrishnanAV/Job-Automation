@@ -1,0 +1,8 @@
+README.md
+setup.py
+job_application_automator.egg-info/PKG-INFO
+job_application_automator.egg-info/SOURCES.txt
+job_application_automator.egg-info/dependency_links.txt
+job_application_automator.egg-info/entry_points.txt
+job_application_automator.egg-info/requires.txt
+job_application_automator.egg-info/top_level.txt

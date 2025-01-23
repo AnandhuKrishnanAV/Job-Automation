@@ -1,0 +1,2 @@
+[console_scripts]
+job-automator = job_application_automator.cli:main

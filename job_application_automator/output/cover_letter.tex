@@ -1,0 +1,41 @@
+Here is a cover letter in LaTeX format using the provided information:
+```
+\documentclass{letter}
+
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage[english]{babel}
+\usepackage{blindtext} % for generating random text
+
+\signature{\includegraphics[width=0.2\textwidth]{signature.png}\\ John Doe} % replace with your signature image
+\address{\href{mailto:john@example.com}{john@example.com} \\ (123) 456-7890 \\ 123 Main St, City, State 12345}
+
+\begin{document}
+
+\begin{letter}{Test Company \\ Software Engineer Position \\ 123 Company St \\ City, State 12345}
+
+\opening{Dear Hiring Manager,}
+
+I am writing to express my interest in the Software Engineer position at Test Company. With 5 years of software development experience and a BS in Computer Science, I am confident that I would make a valuable addition to your team.
+
+As a skilled Python developer, I have experience working with SQL and API development, as well as a strong background in software engineering principles. I have a proven track record of delivering high-quality solutions on time and within budget. My experience and skills align well with the requirements of the position, and I am excited about the opportunity to contribute to the success of Test Company.
+
+I have attached my resume for your review, and I would welcome the opportunity to further discuss how my background and skills would be a good fit for the Software Engineer position. Thank you for considering my application. I look forward to the opportunity to speak with you.
+
+\closing{Sincerely,}
+
+\end{letter}
+
+\end{document}
+```
+You can replace the signature image and the dummy text with your own.
+
+Please note that this is just a template and you should customize it to fit your specific needs and the job you are applying for.
+
+Also, make sure to compile the LaTeX document with the `--shell-escape` flag to allow the inclusion of images, as follows:
+```
+$ pdflatex --shell-escape coverletter.tex
+```
+This will generate a PDF file named `coverletter.pdf`.
+
+I hope this helps! Let me know if you have any questions.

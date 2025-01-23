@@ -1,0 +1,7 @@
+mistralai==0.0.9
+python-dotenv>=1.0.0
+SQLAlchemy>=2.0.0
+pytest>=8.0.0
+Jinja2>=3.0.0
+schedule>=1.2.0
+pdflatex>=0.1.3
